@@ -1,0 +1,58 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #e3f2fd, #fce4ec);
+}
+
+
+.app h1 {
+  text-align: center;
+  margin-top: 40px;
+  color: #333;
+}
+
+
+.converter {
+  background: #fff;
+  width: 320px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+
+.converter input {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.converter select {
+  padding: 6px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+
+.converter h3 {
+  margin-top: 15px;
+  color: #2e7d32;
+}
+
+
+.converter p {
+  color: #555;
+  font-size: 14px;
+}
+
+
+.converter p:first-child {
+  color: red;
+  font-size: 13px;
+}
